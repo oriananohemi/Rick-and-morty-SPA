@@ -11,8 +11,8 @@ const routes = {
 };
 
 const router = async () => {
-  const header = nul || document.getElementById('header');
-  const content = nul || document.getElementById('content');
+  const header = null || document.getElementById('header');
+  const content = null || document.getElementById('content');
 
   header.innerHTML = await Header()
 }
