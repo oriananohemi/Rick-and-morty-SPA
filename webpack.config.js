@@ -22,12 +22,12 @@ module.exports = {
     ]
   },
   plugins: [
-    new HtmlWebackPlugin([
+    new HtmlWebackPlugin(
       {
         inject:true,
         template: './public/index.html',
         filename:'./index.html'
       }
-    ])
+    )
   ]
 }
