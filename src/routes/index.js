@@ -9,3 +9,10 @@ const routes = {
   '/:id': Character,
   '/contact': 'Contact'
 }
+
+const router = async () => {
+  const header = nul || document.getElementById('header');
+  const content = nul || document.getElementById('content');
+
+  header.innerHTML = await Header()
+}
