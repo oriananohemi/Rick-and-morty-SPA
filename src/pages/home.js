@@ -8,13 +8,13 @@ const Home = async () => {
   ${characters.results.map(
     character => `
     <article class="character-item>
-      <a href="#/${character.id}/">
-        <img src="${character.image}" alt="${character.name}">
-        <h2>${character.name}</h2>
-      </a>
+    <img src="${character.image}" alt="${character.name}"/>
+    <a href="#/${character.id}/">
+    <h2>${character.name}</h2>
+    </a>
     </article>
     `
-    )}
+    ).join('')}
     </div>
   `
   return view
