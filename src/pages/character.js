@@ -1,5 +1,5 @@
 const Character = () => {
-  const viwe = `
+  const view = `
   <div class="characters-inner">
   <article class="caracters-card">
   <img src="image" alt="name">
