@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebackPlugin = require('html-webpack-plugin');
-const { resolve } = require('path');
 
 module.exports = {
   entry: './src/index.js',
