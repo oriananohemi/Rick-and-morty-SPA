@@ -1,16 +1,14 @@
 const Header = () => {
   const view = `
-    <div class="header-main">
+    <div class="header-main flex-container">
         <div class="header-logo">
         <a href="#/">
-          <h1>
-          100tifi.co
-          </h1>
+          <img class="image-responsive" src="/public/assets/logo.png"/>
           </a>
+          </div>
           <a href="#/about">
              About
           </a>
-        </div>
     </div>
   `;
   return view;
