@@ -25,9 +25,21 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  width: 80px;
 }
 
 .header-main {
   height: 100px;
 }
+
+.character-item {
+  flex: 1 1 40%;
+  margin: 10px;
+}
+
+
 /* #6ac718 */
