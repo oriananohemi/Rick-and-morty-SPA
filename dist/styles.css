@@ -61,7 +61,7 @@ body {
 }
 
 .character-item {
-  flex: 1 1 40%;
+  max-width: 35%;
   margin: 10px;
 }
 
