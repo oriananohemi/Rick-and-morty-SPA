@@ -12,7 +12,7 @@ a {
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 100%), url('../../public/assets/fondo.png');
+  background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3) 100%), url('/assets/fondo.png');
   background-position: top;
   background-size: cover;
   color: white;
@@ -61,7 +61,7 @@ body {
 }
 
 .character-item {
-  flex: 1 1 40%;
+  max-width: 35%;
   margin: 10px;
 }
 
