@@ -6,8 +6,9 @@ const Character = async () => {
   const character = await getData(id)
   const view = `
   <div class="characters-inner">
-  <article class="caracters-card">
+  <article class="caracters-card flex-container">
   <img src="${character.image}" alt="${character.name}">
+  <div>
   <h2>
   ${character.name}
   </h2>
@@ -29,6 +30,7 @@ const Character = async () => {
     <h3>
       Last Location: <span>  ${character.location.name}</span>
     </h3>
+    </div>
   </article>
   </.div>
   `
